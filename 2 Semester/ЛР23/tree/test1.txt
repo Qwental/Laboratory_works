@@ -1,0 +1,134 @@
+8 3 10 1 6 14 4 7 13
+
+-------------------------
+			125
+		14
+			13
+	10
+8
+			7
+		6
+			4
+	3
+		1
+
+-------------------------
+4
+Степень двоичного графа = 1
+
+
+//Tree *delete_element(Tree *root, int value)
+//{
+//    Tree *tree1 = NULL;
+//    Tree *tree2 = NULL;
+//    Tree *tree3 = root;
+//    Tree *tree4 = NULL;
+//    if (root == NULL)
+//    {
+//        ERROR("Дерево пустое");
+//        return root;
+//    }
+//    tree1 = search_in_tree(tree3, value);
+//    if (tree1 == NULL)
+//    {
+//        ERROR("Элемента с таким значением не существует.");
+//        return root;
+//    }
+//    if (tree1->left == NULL && tree1->right == NULL)
+//    {
+//        if (tree1->parent == NULL)
+//        {
+//            free(tree1);
+//            tree1 = NULL;
+//            SUCCESS("Удаление выполнено.");
+//            return NULL;
+//        }
+//        tree2 = tree1->parent;
+//        if (tree2->left == tree1)
+//        {
+//            tree2->left = NULL;
+//        }
+//        else
+//        {
+//            tree2->right = NULL;
+//        }
+//        free(tree1);
+//    }
+//    else if (tree1->left != NULL && tree1->right == NULL)
+//    {
+//        if (tree1->parent == NULL)
+//        {
+//            tree4 = tree1->left;
+//            tree4->parent = NULL;
+//            free(tree1);
+//            SUCCESS("Удаление выполнено.");
+//            return tree4;
+//        }
+//        tree2 = tree1->parent;
+//        if (tree2->left == tree1)
+//        {
+//            tree2->left = tree1->left;
+//        }
+//        else
+//        {
+//            tree2->right = tree1->left;
+//        }
+//        free(tree1);
+//    }
+//    else if (tree1->left == NULL && tree1->right != NULL)
+//    {
+//        if (tree1->parent == NULL)
+//        {
+//            tree4 = tree1->right;
+//            tree4->parent = NULL;
+//            free(tree1);
+//            SUCCESS("Удаление выполнено.");
+//            return tree4;
+//        }
+//        tree2 = tree1->parent;
+//        if (tree2->left == tree1)
+//        {
+//            tree2->left = tree1->right;
+//        }
+//        else
+//        {
+//            tree2->right = tree1->right;
+//        }
+//        free(tree1);
+//    }
+//    else if (tree1->left != NULL && tree1->right != NULL)
+//    {
+//        tree2 = mini(tree1->right);
+//        tree1->data = tree2->data;
+//        tree4 = tree2->parent;
+//        if (tree4->left == tree2)
+//        {
+//            free(tree2);
+//            tree4->left = NULL;
+//        }
+//        if (tree4->right == tree2)
+//        {
+//            free(tree2);
+//            tree4->right = NULL;
+//        }
+//    }
+//    SUCCESS("Удаление выполнено.");
+//    return root;
+//}
+
+//int find_degree(Tree *tree)
+//{
+//    int degree = 0;
+//    if (tree == NULL)
+//        return 0;
+//    else
+//    {
+//        if (tree->left != NULL || tree->right != NULL)
+//            degree++;
+//        int left_degrees = find_degree(tree->left);
+//        int right_degree = find_degree(tree->right);
+//        int newDegrees = left_degrees + right_degree;
+//        return max(degree, newDegrees);
+//        return max(degree, max(left_degrees, right_degree));
+//    }
+//}
