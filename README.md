@@ -1,8 +1,7 @@
 
 # Репозиторий с моими лабами 
 
-Здесь есть все отчеты, коды и тп
-
+Репозиторий с моими материалами, лабами, курсачами (МАИ 8 института, ФИИТ)
 ## [1 Семестр](https://github.com/Qwental/Laboratory_works/tree/main/1%20Semester)
  - [КР1 Машина Тьюринга Вариант 1](https://github.com/Qwental/Laboratory_works/tree/main/1%20Semester/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%961%20%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0%20%D0%A2%D1%8C%D1%8E%D1%80%D0%B8%D0%BD%D0%B3%D0%B0)
   - [КР2 Диаграммер Вариант 4](https://github.com/Qwental/Laboratory_works/tree/main/1%20Semester/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962%20%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B5%D1%80)
