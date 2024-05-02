@@ -18,10 +18,10 @@
 
 ## 2 Семестр
  - [IT-Проект](https://github.com/Qwental/project-web-pizza)
- - [ЛР 21 Bash](https://github.com/Qwental/Laboratory_works/)
- - [ЛР 23 Деревья Вариант 26](https://github.com/Qwental/Laboratory_works/)
+ - [ЛР 21 Bash Вариант 4](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9B%D0%A0%2021)
+ - [ЛР 23 Деревья Вариант 7](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9B%D0%A0%2023)
  - [ЛР 25-26 АТД + сортировки Вариант 26](https://github.com/Qwental/Laboratory_works/)
- - [Практикум VI Бинарные файлы в Си Вариант 5](https://github.com/Qwental/Laboratory_works/)
+ - [Практикум VI Бинарные файлы в Си Вариант 19](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20VI)
  - [Практикум VIII Списки в Си Вариант 4](https://github.com/Qwental/Laboratory_works/)
  - [Практикум IX Сортировки в Си Вариант 4](https://github.com/Qwental/Laboratory_works/)
 ## Авторы
