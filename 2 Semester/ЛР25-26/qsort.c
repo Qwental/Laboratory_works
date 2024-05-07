@@ -2,7 +2,20 @@
 #include "stdio.h"
 
 
-int min_search(queue *q) {
+int min_key_search(queue *q) {
+    //    Нашли минимальный элемент
+    queue cur = *q;
+    int min = 2147483647;
+
+    while (!Empty(&cur)) {
+        if (min > Top(&cur).key)
+            min = Top(&cur).key;
+        Pop(&cur);
+    }
+    return min;
+}
+
+int min_value_search(queue *q) {
     //    Нашли минимальный элемент
     queue cur = *q;
     int min = 2147483647;
@@ -15,14 +28,13 @@ int min_search(queue *q) {
     return min;
 }
 
-
-queue minimal_search(queue *q) {
+queue minimal_key_search_and_pop(queue *q) {
     if (Empty(q))
         return *q;
     if (Size(q) == 1)
         return *q;
 
-    int min = min_search(q);
+    int min = min_value_search(q);
 
     queue cur = *q;
     queue new_temp_que;
@@ -53,13 +65,11 @@ queue min_pop(queue *q) {
     if (Size(q) == 1) {
         return *q;
     }
-    *q = minimal_search(q);
+    *q = minimal_key_search_and_pop(q);
     printf("После: ");
     Print(q);
     return *q;
 }
-
-
 
 
 // линейная сортировка очереди
@@ -82,7 +92,7 @@ queue qsort(queue *q) {
     int min_value;
     for (int i = 0; i < size_que; i++) {
         // Ищем минимальный элемент в очереди
-        min_value = min_search(&cur);
+        min_value = min_key_search(&cur);
         // Cоздаем временную очередь для удаления из оригинальной минимального текущего элемента
         queue temp_que;
         Create(&temp_que);
@@ -90,7 +100,7 @@ queue qsort(queue *q) {
         int flag = 0;
 
         while (!Empty(&cur)) {
-            if ((min_value == Top(&cur).value) && (flag == 0)) {
+            if ((min_value == Top(&cur).key) && (flag == 0)) {
                 flag = 1;
                 // Добавляем min_value в вспомогательную очередь
                 Push(&help_que, Top(&cur));
