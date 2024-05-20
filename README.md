@@ -18,6 +18,7 @@
 
 ## 2 Семестр
  - [IT-Проект](https://github.com/Qwental/project-web-pizza)
+ - [Алгоритм Терри Python- КП Дискретная математика](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%20%D0%A2%D0%B5%D1%80%D1%80%D0%B8%20%D0%BD%D0%B0%20Python)
  - [ЛААГ - Курсовая работа Вариант 4](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9B%D0%90%D0%90%D0%93)
  - [ЛР 21 Bash Вариант 4](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9B%D0%A0%2021)
  - [ЛР 23 Деревья Вариант 7](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9B%D0%A0%2023)
