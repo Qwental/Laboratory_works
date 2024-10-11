@@ -28,6 +28,8 @@
  - [Практикум VIII : Однонаправ. список строкового типа, обмен. мест. 2-й и -2-й элементы списка](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20VIII)
  - [Практикум IX Шейкер Сортировка, Структура таблицы - 1](https://github.com/Qwental/Laboratory_works/tree/main/2%20Semester/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20IX)
 
+## 3-4 Семестра будут через год =) (надеюсь, если меня не числанет Илья)
+
 ## Авторы
 
 - [@Qwental](https://github.com/Qwental)
