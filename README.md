@@ -36,7 +36,9 @@
 ## 4 Семестр
  - [Фундаментальные алгоритмы](https://github.com/Qwental/labs_4_sem)
 
-
+## 5 Семестр
+ - [Основы криптографии](https://github.com/Qwental/crypota)
+ - 
 ## Авторы
 
 - [@Qwental](https://github.com/Qwental)
